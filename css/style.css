@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/backgroundImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode: saturation; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #331D2C;
+}
+
+input{
+    font-size: 18px;
+    width : 50%;
+    height: 40px;
+    border-radius: 15px;
+    border-width: 0;
+    padding: 4px;
+    padding-left: 10px;
+    box-shadow: 3px 3px 50px 8px black, inset 3px 3px 50px 8px #7A9D54;
+    backdrop-filter: blur(15px);
+    background-color: #F4EEFF;
+    margin-bottom: 20px;
+    outline: 0;
+}
+
+input[type="text"]:focus{
+    box-shadow: 2px 2px 50px 10px black, inset 2px 2px 50px 10px #7A9D54;
+    backdrop-filter: blur(10px);
+}
+input:hover{
+    box-shadow: 2px 2px 50px 10px black, inset 2px 2px 50px 15px #7A9D54;
+    backdrop-filter: blur(10px);
+}
+.add-button{
+    width: 18%;
+    height: 40px;
+    padding: 4px;
+    /* margin-bottom: 20px; */
+    background-color: #3F2305;
+    box-shadow: 2px 2px 50px 5px #1A5D1A, inset 2px 2px 50px 5px #7A9D54;
+    backdrop-filter: blur(15px);
+    border-width: 0;
+    border-radius: 18px;
+    outline: 0;
+    color: #331D2C;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.add-button:hover{
+    box-shadow: 5px 5px 50px 8px #1A5D1A, inset 5px 5px 50px 8px #7A9D54;
+    backdrop-filter: blur(15px);
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 7%;
+}
+
+.blur-effect{
+    box-shadow: 2px 2px 50px 5px #1A5D1A, inset 2px 2px 50px 5px #7A9D54;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border-width: 0;
+}
+
+.size-container{
+    width : 96%;
+    height: auto;
+    margin:5% 0;
+    padding: 2%;
+}
+
+.header-container{
+    width: 40%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #331D2C;
+    font-size: 1.8rem;
+    /* padding: 0 10px; */
+}
+
+.title{
+    margin: 0 10%;
+    display: block;
+}
+
+.add-container{
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-top : 7%;
+    margin-bottom: 7%;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+p{
+    margin: 0;
+    padding-left: 10px;
+    display: inline;
+}
+
+.delete-button{
+    position: absolute;
+    margin-top: 1px;
+    right: 20px;
+    background: none;
+    border-style: none;
+    outline: 0;
+    font-size: large;
+    color: #331D2C;
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+}
+
+.list-items{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    width: 94%;
+    height: 30px;
+    padding: 2% 2%;
+    margin: 3px;
+
+}
